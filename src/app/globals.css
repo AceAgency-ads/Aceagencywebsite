@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-electric-violet: #650CBE;
+  --color-burgundy: #56151A;
+  --color-electric-mint: #66F2A6;
+  --color-cobalt-blue: #4500D0;
+  --color-brand-black: #252523;
+  --color-brand-grey: #D9D9D9;
+
+  /* Typography - references CSS variables set by next/font/local in layout.tsx */
+  --font-headline: var(--font-glacial), sans-serif;
+  --font-subheading: var(--font-redhat), sans-serif;
+  --font-body: var(--font-poppins), sans-serif;
+  --font-secondary: var(--font-anton), sans-serif;
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-body);
+  color: var(--color-brand-black);
+}
