@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-13)
 ## Current Position
 
 Phase: 1 of 6 (Foundation & Infrastructure)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In progress
-Last activity: 2026-02-15 -- Completed Plan 01: Next.js 16 Foundation with Brand Design System
+Last activity: 2026-02-15 -- Completed Plan 02: i18n Configuration with next-intl
 
-Progress: [██░░░░░░░░░░░░░░░░░░] 5.6% (1/18 plans)
+Progress: [███░░░░░░░░░░░░░░░░░] 11.1% (2/18 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 5.6 minutes
-- Total execution time: 0.09 hours
+- Total plans completed: 2
+- Average duration: 6.1 minutes
+- Total execution time: 0.19 hours
 
 **By Phase:**
 
-| Phase | Plans | Total | Avg/Plan |
-|-------|-------|-------|----------|
-| 01    | 1     | 5.6m  | 5.6m     |
+| Phase | Plans | Total  | Avg/Plan |
+|-------|-------|--------|----------|
+| 01    | 2     | 12.2m  | 6.1m     |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (5.6m)
-- Trend: First plan completed
+- Last 5 plans: 01-01 (5.6m), 01-02 (6.6m)
+- Trend: Consistent velocity
 
 *Updated after each plan completion*
 
@@ -48,6 +48,9 @@ Recent decisions affecting current work:
 - [01-01]: Use Josefin Sans as geometric sans-serif fallback for Glacial Indifference (not on Google Fonts)
 - [01-01]: Use next/font/google for all fonts instead of local .woff2 files to avoid sourcing issues
 - [01-01]: Simplified ESLint flat config by directly importing eslint-config-next (avoid FlatCompat complexity)
+- [01-02]: Used server-side translations with getTranslations for SEO-friendly SSR content
+- [01-02]: Set localePrefix: 'always' to force /ro and /en in all URLs (no unprefixed paths)
+- [01-02]: Used getLocale() in root layout to dynamically set HTML lang attribute per request
 
 ### Pending Todos
 
@@ -62,5 +65,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-15
-Stopped at: Completed 01-01-PLAN.md (Next.js 16 Foundation with Brand Design System)
-Resume file: .planning/phases/01-foundation-infrastructure/01-01-SUMMARY.md
+Stopped at: Completed 01-02-PLAN.md (i18n Configuration with next-intl)
+Resume file: .planning/phases/01-foundation-infrastructure/01-02-SUMMARY.md
