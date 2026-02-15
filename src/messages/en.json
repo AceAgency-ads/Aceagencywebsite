@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "title": "AceAgency | Digital Marketing Agency Bucharest",
+    "description": "Full-service digital marketing agency in Bucharest, Romania. Google Ads, Meta Ads, SEO, AI Automation, Web Development, Video Production. 200+ projects, 95% client retention."
+  },
+  "HomePage": {
+    "title": "Transform your business through digital marketing",
+    "subtitle": "Full-service digital marketing agency in Bucharest",
+    "cta": "Request a free consultation",
+    "stats": {
+      "projects": "200+ projects",
+      "businesses": "50+ businesses",
+      "sales": "4M+ EUR sales",
+      "retention": "95% retention",
+      "roi": "350% ROI",
+      "experience": "6+ years"
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "LanguageSwitcher": {
+    "switchTo": "Schimba in Romana",
+    "currentLanguage": "English"
+  },
+  "Common": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "readMore": "Read more",
+    "backToHome": "Back to home"
+  }
+}

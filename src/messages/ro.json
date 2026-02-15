@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "title": "AceAgency | Agentie de Marketing Digital Bucuresti",
+    "description": "Agentie full-service de marketing digital in Bucuresti. Google Ads, Meta Ads, SEO, Automatizare AI, Dezvoltare Web, Productie Video. 200+ proiecte, 95% retentie clienti."
+  },
+  "HomePage": {
+    "title": "Transformam afacerea ta prin marketing digital",
+    "subtitle": "Agentie full-service de marketing digital in Bucuresti",
+    "cta": "Solicita o consultatie gratuita",
+    "stats": {
+      "projects": "200+ proiecte",
+      "businesses": "50+ afaceri",
+      "sales": "4M+ EUR vanzari",
+      "retention": "95% retentie",
+      "roi": "350% ROI",
+      "experience": "6+ ani"
+    }
+  },
+  "Navigation": {
+    "home": "Acasa",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "portfolio": "Portofoliu",
+    "blog": "Blog",
+    "contact": "Contact",
+    "faq": "Intrebari frecvente"
+  },
+  "LanguageSwitcher": {
+    "switchTo": "Switch to English",
+    "currentLanguage": "Romana"
+  },
+  "Common": {
+    "learnMore": "Afla mai mult",
+    "contactUs": "Contacteaza-ne",
+    "readMore": "Citeste mai mult",
+    "backToHome": "Inapoi acasa"
+  }
+}

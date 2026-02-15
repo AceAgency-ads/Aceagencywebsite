@@ -1,5 +1,11 @@
 import type { Metadata } from 'next'
-import { Poppins, Red_Hat_Display, Anton, Josefin_Sans } from 'next/font/google'
+import {
+  Poppins,
+  Red_Hat_Display,
+  Anton,
+  Josefin_Sans,
+} from 'next/font/google'
+import { getLocale } from 'next-intl/server'
 import './globals.css'
 
 // Josefin Sans - geometric sans-serif fallback for Glacial Indifference (not available on Google Fonts)
@@ -39,10 +45,16 @@ export const metadata: Metadata = {
   description: 'Full-service digital marketing agency in Bucharest, Romania',
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  const locale = await getLocale()
+
   return (
     <html
-      lang="ro"
+      lang={locale}
       className={`${josefinSans.variable} ${poppins.variable} ${redHatDisplay.variable} ${anton.variable}`}
     >
       <body className="antialiased">{children}</body>
